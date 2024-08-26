@@ -1,0 +1,15 @@
+
+services:
+  eureka:
+    image: twisted-fate:latest
+    restart: no
+    ports:
+      - "8761:8761"
+    networks:
+      - lol-world
+
+networks:
+  lol-world:
+
+
+
